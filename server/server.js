@@ -31,6 +31,11 @@ app.get('/todos', (req, res) => {
 });
 
 
+app.post('/user', (req, res) => {
+    console.log(req.body);
+});
+
+
 app.listen(port, () => {
     console.log(`Started on port ${port}`);
 });

@@ -2,13 +2,13 @@
   "name": "node-todo-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-    "node": "6.10.2"  
+    "node": "6.10.2"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,7 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "mongodb": "^2.2.30",
-    "mongoose": "^4.11.3"
+    "mongoose": "^4.11.3",
+    "validator": "^8.0.0"
   }
 }
