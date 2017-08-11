@@ -40,7 +40,7 @@ app.listen(port, () => {
     console.log(`Started on port ${port}`);
 });
 
-
+module.exports = {app};
 
 // var newTodo = new Todo({
 //     text: '餵貓',
